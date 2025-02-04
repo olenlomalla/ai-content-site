@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"
-  publish = ".next"
-  
+  publish = "dist"  # Change from 'out' to 'dist' for Astro
+
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
